@@ -67,3 +67,13 @@ ssh -i "ticomart-key.pem" ubuntu@32.195.38.102
 | Usuario ticomart | Creado |
 | Docker 29.3.0 | Instalado |
 | Docker Compose 5.1.0 | Instalado |
+
+### Semana 2 — Stack Docker y Monitoreo (12-15 marzo)
+- Configurado SWAP de 2GB para optimizar memoria del servidor
+- Levantados 7 contenedores con Docker Compose
+- Base de datos TicoMart importada (12 tablas, 60,000 pedidos)
+- Grafana conectado a MySQL con dashboard de pedidos por día
+- Prometheus configurado con Node Exporter (métricas en tiempo real)
+- Dashboard Node Exporter Full importado en Grafana (CPU, RAM, disco, red)
+- Promtail configurado para enviar logs del servidor a Loki
+- Logs visibles en Grafana Explore
